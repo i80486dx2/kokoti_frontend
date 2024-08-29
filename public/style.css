@@ -1,0 +1,278 @@
+h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 8vw;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 6vw;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 4vw;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 3vw;
+}
+
+a {
+  font-size: 4vw;
+}
+
+.resize_large {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.resize_large img {
+  width: 100%;
+  height: auto;
+}
+
+.resize {
+  width: 60%;
+  margin: 2vh auto;
+}
+
+.resize_beforeafter {
+  width: 85%;
+  margin: 2vh auto;
+}
+
+.resize_beforeafter img {
+  width: 100%;
+  height: auto;
+}
+
+.resize img {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  width: 80%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 98vw;
+}
+
+.photo_left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.photo_right {
+  position: absolute;
+  top: 35vw;
+  left: 30vw;
+  z-index: 1;
+}
+
+#colored {
+  color: #ffa584;
+}
+
+#reserve_colored {
+  color: black;
+}
+
+#reserve_button {
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 2vw 0%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background: white;
+}
+
+.header h4 {
+  text-align: left;
+  margin: 0 0 0 10vw;
+}
+
+.header h2 {
+  text-align: left;
+  margin: 0 0 0 10vw;
+}
+
+.top_space {
+  margin-top: 13vw;
+}
+
+.top_page {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.menu {
+  color: black;
+}
+
+.description_left {
+  margin-left: 15vw;
+}
+
+.description_left h2 {
+  text-align: left;
+}
+
+.flow_left {
+  border-radius: 0 4vw 4vw 0;
+  padding: 2vw 0;
+  padding-right: 5vw;
+  margin: 5vw 0;
+  margin-right: 20vw;
+}
+
+.description_right {
+  margin-right: 15vw;
+}
+
+.flow_right {
+  border-radius: 4vw 0 0 4vw;
+  padding: 2vw 0;
+  padding-left: 5vw;
+  margin: 5vw 0;
+  margin-left: 20vw;
+}
+
+.flow_right h2 {
+  text-align: left;
+  margin-left: 0vw;
+}
+
+.background_image {
+  background-image: url("static/bg_top.png"); /* 画像ファイルのパスを指定 */
+  background-size: cover; /* 画像をヘッダーに合わせて拡大縮小 */
+  color: #fff;
+  text-align: center;
+  padding: 5vw 0;
+}
+
+#menu_items h2 {
+  color: black;
+  margin: 0 5vw;
+}
+
+#menu_items p {
+  color: black;
+  text-align: left;
+  margin: 0 5vw;
+  font-family: "Inter";
+  font-size: 4vw;
+}
+
+.background_image h1 {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.background_image h2 {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.problem_title {
+  margin-left: 10vw;
+}
+
+.problem .flow_left {
+  margin-top: 5vw;
+}
+
+.problem .flow_right {
+  margin-top: 5vw;
+}
+
+.problem h2 {
+  text-align: left;
+}
+
+.problem h3 {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.solution h2 {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.solution h3 {
+  text-align: left;
+  margin-left: 10vw;
+}
+
+.bg_item {
+  flex-shrink: 0;
+  border-radius: 4vw;
+  padding: 5vw;
+  margin: 5vw;
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+
+#additional_button {
+  margin-top: 0vw;
+  background: #ffcbb3;
+}
+
+button {
+  border-radius: 4vw;
+  padding: 3vw 9vw;
+  margin-top: 5vw;
+  border: 0;
+  color: white;
+  background: rgba(255, 255, 255, 0.6);
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 6vw;
+}
+
+.bg_item a {
+  display: inline-block;
+  text-align: left;
+  color: black;
+}
+
+.basic_item {
+  border-radius: 4vw;
+  padding: 5vw;
+  margin: 5vw;
+}
+
+.gray {
+  background: #f5f5f5;
+}
+
+.gray h3 {
+  margin: 2vw 0;
+}
+
+.light_pink {
+  background: #fff6f2;
+}
+
+.voice h3 {
+  text-align: left;
+  margin: 2vw 0;
+}
